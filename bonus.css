@@ -1,0 +1,70 @@
+.form-container {
+    width: 50%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .form-group {
+    width: 48%; /* Set to less than 50% to leave room for margins */
+    float: left;
+    margin-right: 4%; /* Adjust the margin to create space between form groups */
+    margin-bottom: 20px;
+  }
+  
+  
+  .form-group:last-child {
+    margin-right: 0; /* Remove right margin for the last form group */
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .form-group1 {
+    width: 100%; /* Set to less than 50% to leave room for margins */
+    float: left;
+    margin-right: 4%; /* Adjust the margin to create space between form groups */
+    margin-bottom: 20px;
+  }
+  
+  
+  .form-group1:last-child {
+    margin-right: 0; /* Remove right margin for the last form group */
+  }
+  
+  .form-group1 label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group1 input,
+  .form-group1 textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .image-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+
